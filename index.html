@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tipuri de Programare</title>
+</head>
+<body>
+    <h1>Tipurile de programare</h1>
+    <hr><Br><Br><Br>
+    <h3>- C  U  P  R  I  N  S -</h3><Br><Br>
+        <table>
+    <tr>
+        <td>1. Recursia </td>
+        <td>2. Trierea</td>
+    </tr>
+    <tr>
+        <td>3. Greedy</td>
+        <td>4. Backtracking</td>
+    </tr>
+        </table><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+            <Hr width=1200 size=5 color=blue>
+                <h2>RECURSIA</h2>
+            <Hr width=700 size=5 color=blue>
+    <p>Un proces care se realizeaza prin apelarea la o forma mai simpla a sa. Exista unul sau cateva cazuri elementare, la aparitia carora procesul recursiv este oprit. Procesul recursiv converge obligatoriu spre un caz elementar.</p>
+    <p>Fie P o problemă în care cere calculul valorii
+        v,v ∈ Q = {Q
+        ∈
+        0
+        , Q
+        1
+        , Q
+        2
+        , ..., Q
+        k
+        , ... Q
+        n
+        , ...}.
+        Q
+        0
+        ,
+        este cunoscut, sau poate fi calculat direct.
+        Oricare
+        Q
+        i ∈
+         Q
+         poate fi exprimat prin elementul
+        Q
+        i-1
+        şi o expresie calculabilă.</p> <p> Se determină formula de calcul a elementului
+            Q
+            i
+            exprimat prin
+            Q
+            i-1
+            .
+            Se exprimă consecutiv
+            Q
+            i
+            prin
+            Q
+            i-1
+            Q
+            i-1
+            prin
+            Q
+            i-2
+            ...Q
+            1
+            prin
+            Q
+            0.
+            Se calculează (dacă e necesar)
+            Q
+            0.
+            Se calculează
+            Q
+            1
+            folosind
+            Q
+            0,
+            Q
+            2
+            folosind
+            Q
+            1
+            ...Q
+            n-1
+            folosind
+            Q
+            n-2
+    </p><h4>Probleme rezolvate <a href="recursia.html">aici</h4></a><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+
+
+    <Hr width=1200 size=5 color=blue>
+        <h2>TRIEREA</h2>
+    <Hr width=700 size=5 color=blue>
+        <p>Se numeşte metoda trierii o metodă ce indentifică toate soluţiile unei probleme în dependenţă de mulţimea soluţiilor posibile.  Toate soluţiile se identifică prin valori, ce aparţin tipurilor de date studiate: integer, boolean, enumerare, char, subdomeniu, tablouri unidimensionale. 
+            Fie P o problemă, soluţia căreia se află printre elementele mulţimii S cu un număr finit de elemente. S={s1, s2 , s3 , ... , sn} . Soluţia se determină prin analiza fiecărui element si din mulţimea S. 
+            SCHEMA GENERALĂ:</p>
+        <p>for i:=1 to k do 
+            if SolutiePosibila (si) then PrelucrareaSolutiei (si)</p>
+        <p>Avantajul principal al algoritmilor bazaţi pe metoda trierii constă în faptul că programele respective sunt relativ simple, iar depanarea lor nu necesită teste sofisticate. Complexitatea temporală a acestor algorimi este determinată de numărul de elemente k din mulţimea soluţiilor posibile S. În majoritatea problemelor de o reală importanţă practică metoda trierii conduce la algoritmiii exponenţiali. Întrucît algoritmii exponenţiali sunt inacceptabili în cazul datelor de intrare foarte mari,metoda trierii este aplicată numai în scopuri didactice sau pentur elaborarea unor programe al căror timp de execuţie nu este critic.</p>
+    </p><h4>Probleme rezolvate <a href="trierea.html">aici</h4></a><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+
+
+    <Hr width=1200 size=5 color=blue>
+            <h2>GREEDY</h2>
+    <Hr width=700 size=5 color=blue>
+    <p>Metoda Greedy1
+        (metoda optimului local) este o metodă de programare
+        care se foloseşte în probleme de optimizare şi care furnizează o singură
+        soluţie (optimul global), obţinută prin alegeri succesive ale optimului local.
+        Metoda se aplică problemelor pentru care se dă o mulţime A cu n elemente
+        şi pentru care trebuie determinată o submulţime a sa, S cu m elemente,
+        care îndeplinesc anumite condiţii.</p>
+    <p>Principiul metodei Greedy:</p>
+        <p>• se iniţializează mulţimea soluţiilor S cu mulţimea vidă, S=Ø</p>
+        <p>• la fiecare pas se alege un anumit element x∈A (cel mai promiţător
+        element la momentul respectiv) care poate conduce la o soluţie optimă</p>
+        <p>• se verifică dacă elementul ales poate fi adăugat la mulţimea soluţiilor:</p>
+        <p>- dacă da, atunci va fi adăugat şi mulţimea soluţiilor devine S=S∪{x}
+        - un element introdus în mulţimea S nu va mai putea fi eliminat
+        - dacă nu, el nu se mai testează ulterior</p>
+        <p>• procedeul continuă, până când au fost determinate toate elementele din
+        mulţimea soluţiilor</p>
+    </p><h4>Probleme rezolvate <a href="greedy.html">aici</h4></a><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+            
+
+    <Hr width=1200 size=5 color=blue><Br><Br><Br><Br><Br>
+                <section id="backtracking"><b>BACKTRACKING</b></section><Br><Br><Br><Br><Br>
+    <Hr width=700 size=5 color=blue>
+    <p>Se foloseşte în cazul problemelor a căror soluţie este un
+        vector x = (x1, x
+        2, ..., x
+        n) unde fiecare xi apartine unei
+        mulţimi finite
+        Ai, elementele mulțimilor Ai aflându-se întro relaţie de ordine bine stabilită. Între componentele xi ale vectorului sunt precizate anumite
+        relaţii numite condiţii interne.
+        Soluţiile posibile care satisfac condiţiile interne se numesc
+        soluţii rezultat.
+        Generarea tuturor elementelor produsului cartezian nu este
+        acceptabilă (căutare exhaustivă într-un spaţiu de dimensiuni
+        mari).</p>
+    <p>Metoda backtracking încearcă micşorarea timpului de
+        calcul, realizând o căutare sistematică în spaţiul
+        soluţiilor posibile.
+        Vectorul x este construit progresiv, începând cu prima
+        componentă. Se avansează cu o valoare Xk
+         dacă este
+        satisfăcută condiţia de continuare.
+        Condiţiile de continuare rezultă de obicei din condiţiile
+        interne. Ele sunt strict necesare, ideal fiind să fie şi
+        suficiente.</p>
+    </p><h4>Probleme rezolvate <a href="backtracking.html">aici</h4></a><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+    <p>A realizat Cîșlari Bianca, elevă în clasa a XII-a "C"</p>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: url('images/1.jpg');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+}
+h1 {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 20%;
+}
+#backtracking {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 24%;
+}
+#no1 {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+#no2 {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#no3 {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#no4 {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+h3 {
+    font-size: 50px;
+    line-height: 64px;
+    color:rgb(255, 255, 255);
+    margin-left: 40%; 
+}
+table,th{
+    font-size: 70px;
+    color:rgb(255, 255, 255);
+    width: 100%;
+    margin-left: 15%;
+}
+h2 {
+    font-size: 100px;
+    line-height: 64px;
+    color:white;
+    margin-left: 35%;
+}
+h4 {
+    font-size: 20px;
+    line-height: 64px;
+    color:white;
+    margin-left: 42%;
+}
+p {
+    font-size: 30px;
+    line-height: 64px;
+    color:white;
+}
